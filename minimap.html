@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #222;
+        }
+        #city {
+            background-color: aliceblue;
+            width: 400px;
+            height: 400px;
+        }
+        #square {
+            background-color: darkgrey;
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            margin-right: -4px;
+            vertical-align: top;
+            font-size: 70px;
+            text-align: center;
+            line-height: 150px;
+
+        }
+        .streetA {
+            background-color: gainsboro;
+            width: 250px;
+            height: 150px;
+            display: inline-block;
+        }
+        .b-1 {
+            width: inherit;
+            height: 37px;
+            border-bottom: 2px dashed white;
+        }
+        .b-2 {
+            width: inherit;
+            height: 37px;
+            border-bottom: 2px solid white;
+        }
+        .streetB { 
+            background-color: #696969;
+            width: 150px;
+            height: 250px;
+            margin-top: -4px;
+            margin-right: -4px;
+            display: inline-block;
+        }
+        .mainband {
+            border-right: 2px solid white;
+            width: 71px;
+            height: inherit;
+            display: inline-block;
+
+        }
+        .marker {
+            border-right: 2px dashed white;
+            width: 34px;
+            height: inherit;
+            display: inline-block;
+
+        }
+        .mainband-r {
+            border-left: 2px solid white;
+            width: 71px;
+            height: inherit;
+            display: inline-block;
+
+        }
+        .marker-r {
+            border-right: 2px dashed white;
+            width: 34px;
+            height: inherit;
+            display: inline-block;
+
+        }
+        .park {
+            width: 250px;
+            height: 250px;
+            display: inline-block;
+            margin-top: -4px;
+            font-size: 65px;
+            color: green;
+            text-align: center;
+            line-height: 83px;
+            transform: translateY(-11px);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="city">
+
+    <div id="square">
+        ♖
+
+    </div>
+
+    <div class="streetA">
+        <div class="b-1"></div>
+        <div class="b-2"></div>
+        <div class="b-1"></div>
+    </div>
+
+    <div class="streetB">
+        <div class="mainband">
+            <div class="marker"></div>
+        </div>
+        
+        <div class="mainband-r">
+            <div class="marker-r"></div>
+
+        </div>
+
+    </div>
+
+    <div class="park">
+        🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄 🎄
+    </div>
+
+    </div>
+</body>
+</html>
